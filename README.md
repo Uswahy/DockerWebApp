@@ -23,13 +23,16 @@ Before running this project, ensure you have:
 ✅ Node.js installed (optional, only if testing outside Docker)
 
 
-🚀 Running the App with Docker Compose
+🚀 Running the App with Docker Compose on cmd,shell
 
-shell:
-cd ~/Downloads/DockerWebApp
+✅  copy the Git Repository path
+https://github.com/Uswahy/DockerWebApp.git
 
-docker-compose up --build
+✅ make folder GitRepo
+now, write this on your shell or cmd
+cd ~/Downloads/GitRepo> git clone https://github.com/Uswahy/DockerWebApp.git
+cd ~/Downloads/GitRepo/DockerWebApp> 
+cd ~/Downloads/GitRepo/DockerWebApp> docker-compose up --build
 
-Access the App in Browser:
-
+✅Access the App in Browser:
 http://localhost:4000
