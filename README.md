@@ -30,9 +30,13 @@ https://github.com/Uswahy/DockerWebApp.git
 
 ✅ make folder GitRepo
 now, write this on your shell or cmd
+
 cd ~/Downloads/GitRepo> git clone https://github.com/Uswahy/DockerWebApp.git
+
 cd ~/Downloads/GitRepo/DockerWebApp> 
+
 cd ~/Downloads/GitRepo/DockerWebApp> docker-compose up --build
 
 ✅Access the App in Browser:
+
 http://localhost:4000
